@@ -35,7 +35,7 @@ jobs:
       
       - name: Train the model
         run: |
-          python train_model.py --output model.pkl
+          python train.py --output model.pkl
       
       - name: Save the trained model as an artifact
         uses: actions/upload-artifact@v4
